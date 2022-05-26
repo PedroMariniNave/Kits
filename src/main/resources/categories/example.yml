@@ -1,0 +1,54 @@
+Inventory:
+  title: "Kits - Example"
+  size: 45
+  item-slots: 11,12,13,14,15,20,21,22,23,24,29,30,31,32,33
+  next-page-slot: 26 # só vai aparecer se tiver próxima página
+  previous-page-slot: 18 # só vai aparecer se tiver página anterior
+  items:
+    example:
+      available:
+        type: SKULL_ITEM
+        owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWU0ODYxNWRmNmI3ZGRmM2FkNDk1MDQxODc2ZDkxNjliZGM5ODNhM2ZhNjlhMmFjYTEwN2U4ZjI1MWY3Njg3In19fQ==
+        name: '&aKit Example'
+        lore:
+          - '&7Abaixo estão as informações'
+          - '&7desse kit:'
+          - ''
+          - ' &8▶ &7Itens: &f{items_amount}'
+          - ' &8▶ &7Status: {status}'
+          - ' &8▶ &7Cooldown: &f{cooldown}'
+          - ''
+          - '&7Clique com o &fbotão esquerdo &7para coletar'
+          - '&7Clique com o &fbotão direito &7para visualizar'
+      cooldown:
+        type: SKULL_ITEM
+        owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZlN2Q0NjMyMjQ3N2Q2MWQ0MWMxODc4OGY1YzFhZmQyNGVkNTI2ZWIzZWQ4NDEyN2YyMTJlMjUxNWIxODgzIn19fQ==
+        name: '&eKit Example'
+        lore:
+          - '&7Abaixo estão as informações'
+          - '&7desse kit:'
+          - ''
+          - ' &8▶ &7Itens: &f{items_amount}'
+          - ' &8▶ &7Status: {status}'
+          - ' &8▶ &7Cooldown: &f{cooldown}'
+          - ' &8▶ &7Colete novamente em: &f{cooldown_remaining}'
+          - ''
+          - '&7Clique com o &fbotão direito &7para visualizar'
+      locked:
+        type: SKULL_ITEM
+        owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODg0ZTkyNDg3YzY3NDk5OTViNzk3MzdiOGE5ZWI0YzQzOTU0Nzk3YTZkZDZjZDliNGVmY2UxN2NmNDc1ODQ2In19fQ==
+        name: '&cKit Example'
+        lore:
+          - '&7Abaixo estão as informações'
+          - '&7desse kit:'
+          - ''
+          - ' &8▶ &7Itens: &f{items_amount}'
+          - ' &8▶ &7Status: {status}'
+          - ' &8▶ &7Cooldown: &f{cooldown}'
+          - ''
+          - '&7Clique com o &fbotão direito &7para visualizar'
+
+Back:
+  type: ARROW
+  name: '&cVoltar'
+  slot: 36

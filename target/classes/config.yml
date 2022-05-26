@@ -1,0 +1,38 @@
+MySQL:
+  enabled: false
+  host: 'localhost'
+  database: 'db'
+  username: 'user'
+  password: 'pass'
+  port: 3306
+
+Settings:
+  command: kit
+  aliases: [kits]
+  save-interval: 600
+
+Messages:
+  available: '&aDisponível'
+  locked: '&cBloqueado'
+  cooldown: '&eIndisponível'
+  pvp-area: '&6&lVoltz&f&lMC &8&l➜ &cVocê não pode ativar esse item em uma área de PvP!'
+  kit-item-cooldown: '&6&lVoltz&f&lMC &8&l➜ &cVocê deve aguardar alguns segundos antes de usar esse item novamente!'
+
+Next-Page:
+  type: ARROW
+  name: '&aPróxima Página'
+
+Previous-Page:
+  type: ARROW
+  name: '&cPágina Anterior'
+
+Time-Formatter:
+  second: '&7segundo&f'
+  seconds: '&7segundos&f'
+  minute: '&7minuto&f'
+  minutes: '&7minutos&f'
+  hour: '&7hora&f'
+  hours: '&7horas&f'
+  day: '&7dia&f'
+  days: '&7dias&f'
+  now: '&fAgora'

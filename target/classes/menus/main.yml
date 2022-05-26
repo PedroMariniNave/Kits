@@ -1,0 +1,19 @@
+Inventory:
+  title: "Kits"
+  size: 27
+  items:
+    example:
+      action: 'CATEGORY:example'
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThiZmQwZjliYTI2ODgxOTNhODBiYzkwOGM3OGM5NzNmMGY1NzQ0MDNiZTFlYWI2NGQ3OTU5YzkwYzFjZDcxZSJ9fX0=
+      name: "&aCategoria Exemplo"
+      lore:
+        - '&7Abaixo as informações'
+        - '&7dessa categoria:'
+        - ''
+        - ' &8▶ &7Kits: &f{category_kits}'
+        - ' &8▶ &7Você possui: &f{player_kits}'
+        - ' &8▶ &7Pode coletar: &f{available_kits}'
+        - ''
+        - '&7Clique para abrir essa categoria!'
+      slot: 13

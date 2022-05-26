@@ -1,0 +1,12 @@
+Kit-Settings:
+  permission: 'kit.example'
+  cooldown: 0
+  item:
+    cooldown: 30 # segundos
+    type: SKULL_ITEM
+    owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThiZmQwZjliYTI2ODgxOTNhODBiYzkwOGM3OGM5NzNmMGY1NzQ0MDNiZTFlYWI2NGQ3OTU5YzkwYzFjZDcxZSJ9fX0=
+    name: '&aKit Example &7(Botão direito)'
+    lore:
+      - '&7Ative esse item para pegar o kit!'
+  armor: ''
+  items: ''
